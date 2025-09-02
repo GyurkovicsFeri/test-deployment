@@ -1,0 +1,16 @@
+{
+    "name": "echo-server",
+    "version": "1.0.0",
+    "description": "A simple Deno HTTP server that echoes back query parameters",
+    "main": "main.ts",
+    "scripts": {
+        "start": "deno run --allow-net main.ts",
+        "dev": "deno run --allow-net --watch main.ts"
+    },
+    "imports": {
+        "std/": "https://deno.land/std@0.208.0/"
+    },
+    "permissions": [
+        "net"
+    ]
+}
