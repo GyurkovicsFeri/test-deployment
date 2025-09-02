@@ -13,5 +13,5 @@ function handler(req: Request): Response {
   });
 }
 
-console.log("HTTP server running on http://localhost:8000");
-await serve(handler, { port: 8000 });
+console.log("HTTP server running on http://localhost:3000");
+await serve(handler, { port: 3000 });
